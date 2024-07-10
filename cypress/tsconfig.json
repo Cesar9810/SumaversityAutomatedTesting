@@ -1,0 +1,33 @@
+// {
+//   "compilerOptions": {
+//     "target": "es5",
+//     "lib": ["es5", "dom"],
+//     "types": ["cypress", "node"],
+//     "moduleResolution": "node16",
+//     "module": "Node16",
+//     "resolveJsonModule": true,
+//     "esModuleInterop": true,
+//     "skipLibCheck": true
+//   },
+//   "include": ["**/*.ts"]
+// }
+
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@badeball/cypress-cucumber-preprocessor/steps": [
+        "./node_modules/@badeball/cypress-cucumber-preprocessor/dist/subpath-entrypoints/steps.js"
+      ]
+    },
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress", "node"],
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["**/*.ts"]
+}
+
