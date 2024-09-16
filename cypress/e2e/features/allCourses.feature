@@ -10,6 +10,7 @@ Feature: Vista de todos los cursos
     And debo ver las categorias de cursos
 
   Scenario: Seleccionar un curso
-    Given que estoy en la página de All Courses
+    Given que he iniciado sesión en Sumaversity
+    And navego a la pagina de All Courses
     When hago clic en el botón de Start Learning de un curso
     Then debo ser dirigido a la página de Details Course
