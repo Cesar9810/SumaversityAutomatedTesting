@@ -20,3 +20,8 @@ Feature: Home Sumaversity
     And estoy en el home del Sumaversity
     When doy click en ALL COURSES
     Then debo ver la pagina de ALL COURSES
+
+  Scenario: El boton de MY COURSES no se muestra para usuarios sin cursos
+    Given que he iniciado sesion con un usuario sin cursos
+    When estoy en la pagina de inicio 
+    Then no debo ver el boton MY COURSES
