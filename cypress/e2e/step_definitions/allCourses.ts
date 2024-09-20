@@ -4,8 +4,6 @@ import homePage from 'pages/homePage';
 import homeSumaversityPage from 'pages/homeSumaversityPage';
 
 When("navego a la pagina de All Courses",()=>{
-    homePage.sidebar();
-    homePage.getSmarter();
     homeSumaversityPage.clickAllCourses();
 })
 

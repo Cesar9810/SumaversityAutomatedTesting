@@ -1,7 +1,7 @@
 class AllCoursesPages{
 
     trendingCourses(){
-        cy.contains('span', 'Trending Courses').should('be.visible');
+        cy.contains('span', 'TRENDING COURSES').should('be.visible');
     }
 
     dineroBootcamp(){
@@ -9,11 +9,11 @@ class AllCoursesPages{
     }
 
     jefaBootcamp(){
-        cy.contains('span', 'Jefa Bootcamp').should('be.visible');
+        cy.contains('span', 'Jefa Business Bootcamp English').should('be.visible');
     }
 
     clickStartLearning() {
-        cy.contains('button', 'Start Learning')
+        cy.contains('button', 'START LEARNING')
             .should('be.visible')
             .click();
     

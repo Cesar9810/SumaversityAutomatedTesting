@@ -9,4 +9,3 @@ Feature: Registro de usuario
       And hago clic en el botón de Sign up
     Then debo ver un mensaje de verificacion de email
 
-  # Scenario Outline: 

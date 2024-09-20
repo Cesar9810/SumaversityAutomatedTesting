@@ -8,8 +8,8 @@ Given("estoy en la página de inicio de sesión", () => {
 });
 
 When("ingreso mi correo y mi contraseña", () => {
-    loginPages.fillUserName(user.user.username);
-    loginPages.fillPassword(user.user.password);
+    loginPages.fillUserName(user.user[0].username);
+    loginPages.fillPassword(user.user[0].password);
 });
 
 When("hago clic en el botón de iniciar sesión",()=>{

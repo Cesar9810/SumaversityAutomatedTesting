@@ -1,7 +1,7 @@
 class HomePage{
 
     url(){
-        cy.url().should("include", "/homepage");
+        cy.url().should("include", "/sumaversity");
     }
 
     sidebar(){
