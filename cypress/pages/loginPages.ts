@@ -1,6 +1,6 @@
 class LoginPage{
     visit(){
-        cy.visit('https://development.sumawealth.io/login');
+        cy.visit('https://qa.sumawealth.io/login');
     }
 
     fillUserName(username: string){

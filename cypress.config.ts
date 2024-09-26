@@ -9,7 +9,6 @@ export default defineConfig({
   e2e: {
     async setupNodeEvents(on, config) {
       await addCucumberPreprocessorPlugin(on, config);
-      //preprocessor.addCucumberPreprocessorPlugin(on, config);
 
       on(
         'file:preprocessor',
